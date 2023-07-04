@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ekran{
+    width: 100%;
+    height: 100vh;
+    background: #6591CE;
+    padding-top: 54px;
+}
+.yumaloq1{
+    width: 300px;
+    height: 300px;
+    background: #6591CE;
+    border-radius: 50%;
+    border: 40px solid #070E56;
+    margin-left: 270px;
+}
+.yumaloq2{
+    width: 300px;
+    height: 300px;
+    background: #6591CE;
+    border-radius: 50%;
+    border: 40px solid #070E56;
+    margin-left: 900px ;
+    transform: translateY(-300px);
+}
+.yumaloq3{
+    width: 300px;
+    height: 300px;
+    background: #6591CE;
+    border-radius: 50%;
+    border: 40px solid #070E56;
+    transform: translateY(-230px);
+    margin-left: 575px;
+}
+.yopadigan{
+    width: 100%;
+    height: 400px;
+    background-color: #6591CE;
+    transform: translateY(-757px);
+}

@@ -1,0 +1,87 @@
+@font-face {
+  font-family: laylo;
+  src: url("./Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: madina;
+  src: url("./Rubik_Puddles/RubikPuddles-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  padding: 5%;
+}
+.title {
+  text-align: center;
+  color: dodgerblue;
+  font-size: 55px;
+}
+.font {
+  font-size: 28px;
+  font-family: laylo;
+  color: dodgerblue;
+}
+.text {
+  font-size: 28px;
+  padding-top: 30px;
+  line-height: 1.8;
+  word-spacing: 30px;
+  letter-spacing: 2px;
+  color: dodgerblue;
+  text-transform: capitalize;
+  font-style: italic;
+  text-decoration: line-through overline underline;
+}
+.msg {
+  width: 300px;
+  padding: 20px;
+  background: rgb(163, 205, 247);
+  margin: 50px;
+  border-radius: 20px 20px 20px 0px;
+  word-break: break-all;
+  color: dodgerblue;
+  position: relative;
+}
+.msg span {
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+  font-size: 12px;
+  user-select: none;
+}
+.batl {
+  font-size: 50px;
+  font-family: madina;
+  color: dodgerblue;
+  text-align: center;
+}
+.photo{
+    width: 300px;
+    transform: translateY(-150px);
+    opacity: 0.75;
+    transition: 1s;
+}
+.photo:hover{
+    opacity: 1;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 30px;
+    border: none;
+    background: dodgerblue;
+    color: #fff;
+    border-radius: 20px;
+}
+.btn:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+.btn:active{
+    background: blue;
+    opacity: 1;
+}
